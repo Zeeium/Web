@@ -2928,12 +2928,12 @@ body.is-menu-visible #menu {
 }
 
 .stat-fill.html-css {
-    width: 80%; /* Adjust percentage */
+    width: 70%; /* Adjust percentage */
     background-color: #2196f3;
 }
 
 .stat-fill.blender {
-    width: 50%; /* Adjust percentage */
+    width: 45%; /* Adjust percentage */
     background-color: #9c27b0;
 }
 
