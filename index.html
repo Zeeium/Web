@@ -12,6 +12,15 @@
             width: 100%;
             height: auto;
         }
+
+        /* Styling for the banner text */
+        #banner h1 {
+            color: white; /* Change title color to white */
+        }
+
+        #banner p {
+            color: rgba(255, 255, 255, 0.8); /* Subtitle in softer white */
+        }
     </style>
 </head>
 <body>
@@ -31,19 +40,18 @@
         </ul>
     </nav>
 
-  <!-- Banner with video -->
-<section id="banner">
-    <div class="inner">
-        <h1>Welcome to My Portfolio</h1>
-        <p>Showcasing skills, projects, and creativity.</p>
-    </div>
-    <!-- Video with autoplay, loop, muted, and playsinline for better compatibility -->
-    <video id="banner-video" autoplay loop muted playsinline preload="auto" controlsList="nodownload">
-        <source src="images/banner.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-    </video>
-</section>
-
+    <!-- Banner with video -->
+    <section id="banner">
+        <div class="inner">
+            <h1>Welcome to My Portfolio</h1>
+            <p>Creativity is intelligence having fun.</p>
+        </div>
+        <!-- Video with autoplay, loop, muted, and playsinline for better compatibility -->
+        <video id="banner-video" autoplay loop muted playsinline preload="auto" controlsList="nodownload">
+            <source src="images/banner.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </section>
 
     <!-- About Me Section -->
     <section id="about" class="wrapper">
@@ -52,7 +60,7 @@
                 <h2>About Me</h2>
                 <p>Here are some cool stats about my skills:</p>
             </header>
-          <div class="stat-bars">
+            <div class="stat-bars">
                 <div class="stat-item">
                     <p>Python - 3 Years</p>
                     <div class="stat-bar">
@@ -179,6 +187,7 @@
             </ul>
         </div>
     </section>
+
     <!-- Footer -->
     <footer id="footer">
         <div class="inner">
